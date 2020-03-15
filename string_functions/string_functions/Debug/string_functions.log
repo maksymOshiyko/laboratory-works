@@ -1,0 +1,5 @@
+﻿  functions.cpp
+  main.cpp
+  Создание кода...
+D:\C++\string_functions\string_functions\functions.cpp(221,50): warning C4305:  return: усечение из "int" в "bool"
+  string_functions.vcxproj -> D:\C++\string_functions\Debug\string_functions.exe

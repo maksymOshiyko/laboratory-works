@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/d/C++/CLion/Vector/Vector2D.cpp" "/cygdrive/d/C++/CLion/Vector/cmake-build-debug/CMakeFiles/Vector.dir/Vector2D.cpp.o"
-  "/cygdrive/d/C++/CLion/Vector/Vector3D.cpp" "/cygdrive/d/C++/CLion/Vector/cmake-build-debug/CMakeFiles/Vector.dir/Vector3D.cpp.o"
-  "/cygdrive/d/C++/CLion/Vector/main.cpp" "/cygdrive/d/C++/CLion/Vector/cmake-build-debug/CMakeFiles/Vector.dir/main.cpp.o"
+  "/cygdrive/d/C++/laboratory works/Vector/Vector2D.cpp" "/cygdrive/d/C++/laboratory works/Vector/cmake-build-debug/CMakeFiles/Vector.dir/Vector2D.cpp.o"
+  "/cygdrive/d/C++/laboratory works/Vector/Vector3D.cpp" "/cygdrive/d/C++/laboratory works/Vector/cmake-build-debug/CMakeFiles/Vector.dir/Vector3D.cpp.o"
+  "/cygdrive/d/C++/laboratory works/Vector/main.cpp" "/cygdrive/d/C++/laboratory works/Vector/cmake-build-debug/CMakeFiles/Vector.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

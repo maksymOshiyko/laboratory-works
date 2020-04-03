@@ -123,6 +123,60 @@ Lab5/fast:
 	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/build
 .PHONY : Lab5/fast
 
+g2.o: g2.cpp.o
+
+.PHONY : g2.o
+
+# target to build an object file
+g2.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2.cpp.o
+.PHONY : g2.cpp.o
+
+g2.i: g2.cpp.i
+
+.PHONY : g2.i
+
+# target to preprocess a source file
+g2.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2.cpp.i
+.PHONY : g2.cpp.i
+
+g2.s: g2.cpp.s
+
+.PHONY : g2.s
+
+# target to generate assembly for a file
+g2.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2.cpp.s
+.PHONY : g2.cpp.s
+
+g2use.o: g2use.cpp.o
+
+.PHONY : g2use.o
+
+# target to build an object file
+g2use.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2use.cpp.o
+.PHONY : g2use.cpp.o
+
+g2use.i: g2use.cpp.i
+
+.PHONY : g2use.i
+
+# target to preprocess a source file
+g2use.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2use.cpp.i
+.PHONY : g2use.cpp.i
+
+g2use.s: g2use.cpp.s
+
+.PHONY : g2use.s
+
+# target to generate assembly for a file
+g2use.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/g2use.cpp.s
+.PHONY : g2use.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab5"
 	@echo "... edit_cache"
+	@echo "... g2.o"
+	@echo "... g2.i"
+	@echo "... g2.s"
+	@echo "... g2use.o"
+	@echo "... g2use.i"
+	@echo "... g2use.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

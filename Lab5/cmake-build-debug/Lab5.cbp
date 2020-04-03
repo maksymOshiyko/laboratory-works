@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/d/C++/laboratory works/Lab5/g2.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C++/laboratory works/Lab5/g2.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C++/laboratory works/Lab5/g2use.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C++/laboratory works/Lab5/g2use.h">
+			<Option target="Lab5"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/C++/laboratory works/Lab5/main.cpp">
 			<Option target="Lab5"/>
 		</Unit>

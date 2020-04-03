@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/C++/laboratory works/Lab5/g2.h
+
+/cygdrive/d/C++/laboratory works/Lab5/g2use.h
+
+/cygdrive/d/C++/laboratory works/Lab5/main.cpp
+iostream
+-
+g2.h
+/cygdrive/d/C++/laboratory works/Lab5/g2.h
+g2use.h
+/cygdrive/d/C++/laboratory works/Lab5/g2use.h
+string
+-
+fstream
+-
+

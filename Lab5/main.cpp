@@ -87,6 +87,8 @@ int main() {
 		}
 	}
 	processData(input, output);
+
+	return 0;
 }
 
 

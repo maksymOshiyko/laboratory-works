@@ -1,3 +1,4 @@
+#include <string>
 
 #ifndef LAB5_G2_H
 #define LAB5_G2_H
@@ -11,6 +12,8 @@ class Point {
 		double getX() const;
 
 		double getY() const;
+
+		std::string toStr() const;
 
 		bool operator==(const Point& p) const;
 
@@ -36,6 +39,8 @@ class Line {
 		double getB() const;
 
 		double getC() const;
+
+		std::string toStr();
 
 		bool operator==(const Line& p) const;
 

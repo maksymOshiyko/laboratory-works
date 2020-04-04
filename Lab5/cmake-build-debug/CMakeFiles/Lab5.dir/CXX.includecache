@@ -7,8 +7,12 @@
 #IncludeRegexTransform: 
 
 /cygdrive/d/C++/laboratory works/Lab5/g2.h
+string
+-
 
 /cygdrive/d/C++/laboratory works/Lab5/g2use.h
+g2.h
+/cygdrive/d/C++/laboratory works/Lab5/g2.h
 
 /cygdrive/d/C++/laboratory works/Lab5/main.cpp
 iostream

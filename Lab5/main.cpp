@@ -30,9 +30,36 @@ std::string getOutputFile() {
 	return str;
 }
 
-bool processData(std::ifstream& input, std::ofstream& output){
-	double num;
-	input >> num;
+int processData(std::ifstream& input, std::ofstream& output) {
+	while (!input.eof()) {
+		double arr[8];
+		for (int i = 0; i < 8; ++i) {
+			input >> arr[i];
+		}
+		Point p1(arr[0], arr[1]), p2(arr[2], arr[3]);
+		Point p3(arr[4], arr[5]), p4(arr[6], arr[7]);
+
+		Line a(p1, p2);
+		Line b(p3, p4);
+		try {
+			if (p1 == p2) {
+				throw p1;
+			}
+			if (p3 == p4) {
+				throw p3;
+			}
+		} catch (Point a) {
+			output << "Exception: equal points - " << a.toStr() << "\n";
+			continue;
+		}
+		if (isEqual(a, b)) {
+			output << a.toStr() << "  " << b.toStr() << " - збігаються\n";
+		} else if (isParallel(a, b)) {
+			output << a.toStr() << "  " << b.toStr() << " - паралельні\n";
+		} else {
+			output << a.toStr() << "  " << b.toStr() << " - перетинаються\n";
+		}
+	}
 }
 
 int main() {
@@ -40,7 +67,6 @@ int main() {
 	greeting();
 	std::ifstream input;
 	std::ofstream output;
-	double num;
 	while (true) {
 		input.open(getInputFile());
 		if (input.is_open()) {
@@ -60,9 +86,7 @@ int main() {
 			std::cout << "Not found.\n";
 		}
 	}
-
-	input >> num;
-	output << num;
+	processData(input, output);
 }
 
 

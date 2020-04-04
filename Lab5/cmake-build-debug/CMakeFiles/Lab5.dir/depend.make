@@ -4,6 +4,7 @@
 CMakeFiles/Lab5.dir/g2.cpp.o: ../g2.cpp
 CMakeFiles/Lab5.dir/g2.cpp.o: ../g2.h
 
+CMakeFiles/Lab5.dir/g2use.cpp.o: ../g2.h
 CMakeFiles/Lab5.dir/g2use.cpp.o: ../g2use.cpp
 CMakeFiles/Lab5.dir/g2use.cpp.o: ../g2use.h
 
